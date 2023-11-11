@@ -1,0 +1,72 @@
+.todo{
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-row: 16px;
+    column-gap: 16px;
+}
+
+.plantilla{       
+    width: 300px;      
+    font-family: Roboto;
+    margin-bottom: 3px;
+}
+
+.Video{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Perfil{
+    border-radius: 25px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.Titulo{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Youtuber{
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(104, 104, 104);
+}
+
+.Vistas{
+    margin-top: 1px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(104, 104, 104);
+
+}
+
+.grip{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.imagen{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.tiempo{
+    cursor: pointer;
+    bottom: 9px;
+    right: 6px;
+    font-family: Roboto;
+    font-size: 14px;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    border-radius: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
